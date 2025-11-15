@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #fff;
+}
+
+th , td {
+     margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+tbody {
+    align-items: center;
+}
+tr {
+    display: inline-block;
+    padding: 1% 25% ;
+    align-items: center;
+}
+
+.main td   {
+    display: block;
+    width: 100%;
+}
+
+.mainfooter td {
+    text-align: center;
+}
+
+.mainfooter a {
+    text-align: center;
+}
+
+.contanct {
+    display: inline-block;
+    padding-left: 40%;
+    padding-right: 40%;
+    text-align: center;
+    background-color: #ff0000;
+}
+
+.byd {
+      padding-left: 40%;
+      text-align: center;
+}
+
+.footer  {
+        padding-left: 44%;
+    text-align: center;
+}

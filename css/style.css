@@ -8,54 +8,54 @@ body {
 }
 
 
-.thead {
-    background-color: #fff;
+.header {
+    padding: 1% 3%;
+    width: 60%;
+    background-color: #fcfcfc;
 }
 
-.wraper {
-    padding: 0px 20%;
+.header p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-style: italic;
+    font-family: "Arial";
+    text-align: right;
+}
+.empty {
+    width: 20%;
+    background-color: #dcdce5;
 }
 
-th , td {
-     margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: top;
-    box-sizing: border-box;
-    align-items: center;
+.mainempty {
+    background-color: #a10000;
 }
 
-tbody {
-    align-items: center;
-}
-tr {
-    display: inline-block;
-
-    align-items: center;
+.blocktwo {
+    text-align: right;
 }
 
-.main td   {
-    display: block;
+.vidstup {
+    width: 35.4%;
+}
+
+.picture {
+    width: 60%;
+}
+
+.picture img  {
+    height: 100%;
     width: 100%;
 }
 
-.mainfooter td {
-    text-align: center;
-}
-
-.mainfooter a {
-    text-align: center;
-}
-.headtext td {
-    align-items: end;
-}
-
-.byd {
-      padding-left: 40%;
-      text-align: center;
-}
-
-.contanct{
+.mainsvg img {
     display: inline-block;
-    align-items: center;
+}
+
+.infor {
+    background-color: aqua;
+}
+.footerempty {
+     width: 20%;
+    background-color: #3737ff;
 }

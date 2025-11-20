@@ -7,6 +7,9 @@ body {
     background-color: #f5f5f5;
 }
 
+a {
+    text-decoration: none;
+}
 
 .header {
     padding: 1% 3%;
@@ -22,22 +25,32 @@ body {
     font-family: "Arial";
     text-align: right;
 }
+
+.phone a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+}
+
+.phone img {
+    padding-right: 8px;
+}
+
 .empty {
     width: 20%;
     background-color: #dcdce5;
 }
 
 .mainempty {
-    background-color: #a10000;
+    background-color: #f4f4f4;
 }
 
 .blocktwo {
     text-align: right;
 }
 
-.vidstup {
-    width: 35.4%;
-}
+
 
 .picture {
     width: 60%;
@@ -48,14 +61,174 @@ body {
     width: 100%;
 }
 
-.mainsvg img {
-    display: inline-block;
+.h1 {
+    width: 60%;
+    padding: 2% 3%;
+    background-color: #ffff;
 }
 
-.infor {
-    background-color: aqua;
+.h1 h1 {
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    color: #24242b;
+    font-weight: bold;
 }
+
+.h1p {
+ padding-bottom: 11px;
+}
+
+.h1 p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+   
+}
+
+.h1 a {
+    display: inline-block;
+    padding: 11px   22px;
+    border-radius: 20px;
+    background-color: #fd8300;
+    color: #ffff;
+}
+
+.plusu {
+    background-color: #ededf5;
+}
+
+.mainsvg {
+    padding: 2% 3%;
+}
+
+.mainsvg img {
+    display: inline-block;
+    padding:  0 40%;
+}
+
+.mainsvg p {    
+    font-size: 13px;
+    line-height: 18px;
+    color: #666666;
+    font-family: "Arial";
+    text-align: center;
+}
+.nazva {
+    font-size: 14px;
+    line-height: 18px;
+    color: #24242b;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.mainblockone , .mainblocktree , .mainblocktwo {
+    padding: 3% 3%;
+    background-color: #ffffff;
+}
+
+.mainblockone p , .mainblocktree p  , .mainblocktwo p  {
+    font-size: 13px;
+    line-height: 19px;
+    padding-bottom: 14px;
+    color: #9999a6;
+    font-family: "Arial";
+}
+
+ .mainblocktwo , .mainblockone {
+    filter: drop-shadow(0px 1px 0px #e4e4ec);
+}
+
+.mainblockone img , .mainblocktree  img {
+    padding-right: 20px;
+}
+
+.mainblocktwo img {
+    padding-left: 20px ;
+}
+.zagolovok {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.hr {
+    height: 1px;
+    width: 100%;
+}
+
+.mainfooter {
+    background-image: url(https://raw.githubusercontent.com/MatiushkoDasha/email/refs/heads/master/img/bott.png);
+}
+
+.znujka {
+      padding: 5% 3%;
+      text-align: center;
+}
+
+.znujka h2 {
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+.znujka p {
+    font-size: 13px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "Arial";
+}
+
+.znujka a {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 8px 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #1f1f56;
+}
+
 .footerempty {
-     width: 20%;
-    background-color: #3737ff;
+    width: 20%;
+    background-color: #dcdce5;
+}
+
+.soc {
+    text-align: center;
+    background-color: #08081a;
+}
+
+.soc table {
+    width: 100%;
+    padding: 3% 16%;
+}
+
+.soc img {
+    width: 34px;
+    height: 34px;
+    padding-right: 5px;
+}
+
+.soc p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.soc a {
+    font-size: 11px;
+    line-height: 18px;
+    color: #fd8300;
+    font-family: "Arial";
 }

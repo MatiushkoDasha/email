@@ -102,9 +102,12 @@ a {
     padding: 2% 3%;
 }
 
+.mainsvg td {
+    text-align: center;
+}
+
 .mainsvg img {
     display: inline-block;
-    padding:  0 40%;
 }
 
 .mainsvg p {    
@@ -147,9 +150,11 @@ a {
 .mainblocktwo img {
     padding-left: 20px ;
 }
+
 .zagolovok {
     font-size: 16px;
     line-height: 24px;
+    padding-bottom: 17px;
     color: #1f1f56;
     font-weight: bold;
     font-family: "Arial";
@@ -209,7 +214,7 @@ a {
 
 .soc table {
     width: 100%;
-    padding: 3% 16%;
+    padding: 3% 3%;
 }
 
 .soc img {

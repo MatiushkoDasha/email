@@ -26,6 +26,10 @@ a {
     text-align: right;
 }
 
+.blockone img {
+    width: 100%;
+}
+
 .phone a {
     font-size: 16px;
     line-height: 24px;
@@ -50,8 +54,6 @@ a {
     text-align: right;
 }
 
-
-
 .picture {
     width: 60%;
 }
@@ -59,11 +61,13 @@ a {
 .picture img  {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 .h1 {
     width: 60%;
     padding: 2% 3%;
+    padding-bottom: 6%;
     background-color: #ffff;
 }
 
@@ -132,6 +136,7 @@ a {
 }
 
 .mainblockone p , .mainblocktree p  , .mainblocktwo p  {
+    width: 100%;
     font-size: 13px;
     line-height: 19px;
     padding-bottom: 14px;

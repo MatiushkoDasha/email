@@ -27,7 +27,7 @@ a {
 }
 
 .blockone img {
-    width: 100%;
+    width: 70%;
 }
 
 .phone a {
@@ -42,10 +42,13 @@ a {
 }
 
 .empty {
-    width: 20%;
+    width: 10%;
     background-color: #dcdce5;
 }
 
+.center {
+    width: 100%;
+}
 .mainempty {
     background-color: #f4f4f4;
 }
@@ -115,12 +118,13 @@ a {
 }
 
 .mainsvg p {    
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 8px;
+    line-height: 16px;
     color: #666666;
     font-family: "Arial";
     text-align: center;
 }
+
 .nazva {
     font-size: 14px;
     line-height: 18px;
@@ -131,12 +135,12 @@ a {
 }
 
 .mainblockone , .mainblocktree , .mainblocktwo {
-    padding: 3% 3%;
+    padding: 7% ;
     background-color: #ffffff;
 }
 
 .mainblockone p , .mainblocktree p  , .mainblocktwo p  {
-    width: 100%;
+    min-width: 50%;
     font-size: 13px;
     line-height: 19px;
     padding-bottom: 14px;
@@ -152,9 +156,6 @@ a {
     padding-right: 20px;
 }
 
-.mainblocktwo img {
-    padding-left: 20px ;
-}
 
 .zagolovok {
     font-size: 16px;
@@ -241,4 +242,22 @@ a {
     line-height: 18px;
     color: #fd8300;
     font-family: "Arial";
+}
+
+.imgg {
+    width: 50%;
+    padding: 0 10px 0 0;
+}
+
+.imgg img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.home {
+    width: 100%;
+}
+
+.text {
+    width: 50%;
 }
